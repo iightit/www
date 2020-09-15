@@ -14,7 +14,7 @@ body {
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 1.8;
-	color: gray('100');
+	color: gray('900');
 
 }
 a {
@@ -108,7 +108,7 @@ header {
 		span {
 			color: theme-color('primary');
 			@include media-breakpoint-up(md) {
-				color: gray('400');
+				color: gray('900');
 			}
 		}
 	}
@@ -743,7 +743,7 @@ header {
 		background: $white;
 		z-index: 1;
 		bottom: -210px;
-		background-color: $gray-100;
+		background-color: $gray-900;
 		left: 0;
 		position: absolute;
 		transform: skewY(-6deg);
@@ -1314,7 +1314,7 @@ header {
 		background: $white;
 		z-index: -1;
 		bottom: -200px;
-		background-color: $gray-100;
+		background-color: $gray-900;
 		left: 0;
 		position: absolute;
 		transform: skewY(-6deg);
