@@ -9,12 +9,12 @@ html {
 	overflow-x: hidden;
 }
 body {
-	background: $white;
+	background: $black;
 	font-family: $font-family-sans-serif;
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 1.8;
-	color: gray('600');
+	color: gray('100');
 
 }
 a {
@@ -25,7 +25,7 @@ a {
 	}
 }
 h1, h2, h3, h4, h5 {
-	color: $black;
+	color: $white;
 	font-family: $font-heading;
 }
 .btn, .form-control {
@@ -399,7 +399,7 @@ header {
 
 .sched, .blog {
 	display: block;
-	background-color: $white;
+	background-color: $black;
 	@include media-breakpoint-up(md) {
 	
 	}
@@ -832,13 +832,13 @@ header {
 	}
 }
 .form-wrap {
-	background: $white;
+	background: $black;
 	padding: 50px;
 	box-shadow: 0 20px 50px -10px rgba(0,0,0,.5);
 	h2 {
 		font-size: 18px;
 		text-transform: uppercase;
-		color: $black;
+		color: $white;
 		letter-spacing: .1em;
 		margin-bottom: 40px;
 	}
@@ -965,7 +965,7 @@ header {
 .media-feature {
 	padding:30px;
 	transition: .2s all ease-out;
-	background: $white;
+	background: $black;
 	z-index: 1;
 	position: relative;
 	border-bottom: 10px solid transparent;
@@ -988,7 +988,7 @@ header {
 }
 
 .media-custom {
-	background: $white;
+	background: $black;
 	transition: .3s all ease;
 	margin-bottom: 30px;
 	position: relative;
@@ -1241,7 +1241,7 @@ header {
 	left:  50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	background-color: rgba(255,255,255,0.9);
+	background-color: rgba(0,0,0,0.9);
 	box-shadow: 0px 24px 64px rgba(0,0,0,0.24);
 	border-radius:16px;
 	opacity: 0; 
@@ -1257,7 +1257,7 @@ header {
 	width:  100%;
 	height: 100%;
 	transform: none;
-	background-color: #fff;
+	background-color: #000;
 	border-radius: 0;
 	box-shadow: none;
 }
@@ -1329,10 +1329,10 @@ header {
 		content:  "";
 		width: 100%;
 		height: 240px;
-		background: $white;
+		background: $black;
 		z-index: -1;
 		top: 0px;
-		background-color: $white;
+		background-color: $black;
 		left: 0;
 		position: absolute;
 		transform: skewY(-6deg);
@@ -1345,10 +1345,10 @@ header {
 		content:  "";
 		width: 100%;
 		height: 240px;
-		background: $white;
+		background: $black;
 		z-index: -1;
 		top: 0px;
-		background-color: $white;
+		background-color: $black;
 		left: 0;
 		position: absolute;
 		transform: skewY(-6deg);
