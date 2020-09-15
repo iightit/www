@@ -9,12 +9,13 @@ html {
 	overflow-x: hidden;
 }
 body {
-	background: $black;
+	background: $black!important;
+	background-color: $black!important;
 	font-family: $font-family-sans-serif;
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 1.8;
-	color: gray('900');
+	color: gray('100');
 
 }
 a {
