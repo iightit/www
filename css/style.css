@@ -7308,6 +7308,21 @@ h1, h2, h3, h4, h5,
 .text-primary {
   color: #78d5ef !important; }
 
+  .the-blur{
+    position: fixed;
+    top:0;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 20px;
+    background: rgba(0,0,0,.4);
+    z-index:1010;
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+ }
+
 .ftco-navbar-light {
   background: transparent !important;
   position: absolute;
@@ -7324,6 +7339,7 @@ h1, h2, h3, h4, h5,
     color: #fff; }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 16px;
+    font-weight: 400;
     padding-top: .9rem;
     padding-bottom: .9rem;
     padding-left: 20px;
