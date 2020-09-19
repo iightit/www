@@ -7314,12 +7314,11 @@ h1, h2, h3, h4, h5,
     min-height: 50px;
     overflow: hidden;
     position: fixed;
-    filter: blur(4px); 
-    -webkit-filter: blur(4px);
-    -moz-filter: blur(4px);
-    -o-filter: blur(4px);
-    -ms-filter: blur(4px);
+    backdrop-filter: blur(10px) saturate(125%);                   /* Blur the background */
+    /* 10px Gaussian Blur and saturate for fluent design */
+-webkit-backdrop-filter: blur(10px) saturate(125%);           /* Increases browser compability (safari ios and mac) */
     z-index:1010;
+    background: rgba(255,255,255,0.2) !important;
  }
 
 .ftco-navbar-light {
