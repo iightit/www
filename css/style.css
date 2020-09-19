@@ -3169,6 +3169,21 @@ input[type="button"].btn-block {
     background-color: #dee2e6;
     border-radius: 1rem; }
 
+.blurrer {
+  position: fixed;
+   top:0;
+   width: 100%;
+   min-height: 50px;
+   margin-bottom: 20px;
+   background: rgba(255,255,255,.4);
+   z-index:1010;
+   -webkit-filter: blur(20px);
+   -moz-filter: blur(20px);
+   -o-filter: blur(20px);
+   -ms-filter: blur(20px);
+   filter: blur(20px);
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7417,11 +7432,7 @@ h1, h2, h3, h4, h5,
       .ftco-navbar-light.scrolled .nav-link.active {
         color: #78d5ef !important; }
     .ftco-navbar-light.scrolled.awake {
-      margin-top: 0px;
-      background: hsla(0,0%,100%,.3);
-    filter: blur(10px) saturate(125%);                   /* Blur the background 10px Gaussian Blur and saturate for fluent design */
-    -webkit-filter: blur(10px) saturate(125%);           /* Increases browser compability (safari ios and mac) */
-    z-index:1010;
+      margin-top: 0px; 
     background: rgba(255,255,255,0.2) !important;
       -webkit-transition: .3s all ease-out;
       -o-transition: .3s all ease-out;
