@@ -7385,6 +7385,7 @@ h1, h2, h3, h4, h5,
     top: 0;
     margin-top: -130px;
     overflow: hidden;    
+    filter: none !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); }
     .ftco-navbar-light.scrolled .nav-item.active > a {
@@ -7418,8 +7419,8 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
       background: hsla(0,0%,100%,.3);
-    backdrop-filter: blur(10px) saturate(125%);                   /* Blur the background 10px Gaussian Blur and saturate for fluent design */
-    -webkit-backdrop-filter: blur(10px) saturate(125%);           /* Increases browser compability (safari ios and mac) */
+    filter: blur(10px) saturate(125%);                   /* Blur the background 10px Gaussian Blur and saturate for fluent design */
+    -webkit-filter: blur(10px) saturate(125%);           /* Increases browser compability (safari ios and mac) */
     z-index:1010;
     background: rgba(255,255,255,0.2) !important;
       -webkit-transition: .3s all ease-out;
